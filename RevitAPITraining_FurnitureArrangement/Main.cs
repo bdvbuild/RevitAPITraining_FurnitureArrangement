@@ -15,6 +15,8 @@ namespace RevitAPITraining_FurnitureArrangement
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
+            var MainView = new MainView(commandData);
+            MainView.ShowDialog();
             return Result.Succeeded;
         }
     }
