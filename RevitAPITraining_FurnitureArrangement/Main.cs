@@ -15,7 +15,6 @@ namespace RevitAPITraining_FurnitureArrangement
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {
-            TaskDialog.Show("Сообщение", "Тест");
             return Result.Succeeded;
         }
     }
