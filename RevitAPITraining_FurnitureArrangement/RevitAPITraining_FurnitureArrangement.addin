@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Command">
+		<Assembly>"C:\Doc\RevitApi\RevitAPITraining_FurnitureArrangement.dll"</Assembly>
+		<AddInId>F516401B-941C-45DE-93BE-85624C9922BD</AddInId>
+		<FullClassName>RevitAPITraining_FurnitureArrangement.Main</FullClassName>
+		<VendorId>bdvbuild</VendorId>
+		<Text>6.2 Расстановка мебели</Text>
+	</AddIn>
+</RevitAddIns>
