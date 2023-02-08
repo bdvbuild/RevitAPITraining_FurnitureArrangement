@@ -31,7 +31,7 @@ namespace RevitAPITraining_FurnitureArrangement
 
         private void OnSetFamily()
         {
-            RaiseHideRequest();
+            //RaiseHideRequest();
 
             UIApplication uiapp = _commandData.Application;
             UIDocument uidoc = uiapp.ActiveUIDocument;
@@ -53,7 +53,8 @@ namespace RevitAPITraining_FurnitureArrangement
             }
             Utils.CreateFamilyInstance(_commandData, SelectedFamily, pickedPoint, SelectedLevel);
 
-            RaiseShowRequest();
+            RaiseCloseRequest();
+            //RaiseShowRequest();
         }
 
         public event EventHandler ShowRequest;
